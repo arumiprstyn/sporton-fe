@@ -18,3 +18,22 @@
 * {
   @apply font-poppins;
 }
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+
+h1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0); /* Memaksa GPU render teks agar gak kepotong */
+}
+
+html {
+  overflow-x: hidden;
+}
