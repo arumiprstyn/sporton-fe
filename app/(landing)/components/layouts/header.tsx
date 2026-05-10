@@ -6,7 +6,7 @@ const Header = () => {
     return (
      <header> 
         <div className="flex justify-between gap-25 container mx-aut py-7">
-        <Image src="/Images/logo.svg" 
+        <Image src="/images/logo.svg" 
         alt="sporton logo" 
         width={127} 
         height={30}
